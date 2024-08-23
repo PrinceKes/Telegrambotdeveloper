@@ -306,3 +306,80 @@ h1, h2, h3, h4 {
 .skill-box, .project-box, .expertise-box, .faq-item {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+/* General Mobile Styles */
+@media (max-width: 768px) {
+    /* General text resizing */
+    body {
+        font-size: 0.9em; /* Slightly smaller base font size */
+    }
+
+    .top-view h1 {
+        font-size: 2em; /* Resize the top-view heading */
+    }
+
+    .message-ceo {
+        font-size: 1em; /* Resize the message from CEO */
+    }
+
+    .skill-box, .project-box, .expertise-box, .faq-item {
+        width: calc(110% - 40px);
+        font-size: 0.9em; /* Adjust font size for boxes */
+    }
+
+    .client-detail {
+        font-size: 0.75em; /* Smaller text for client details */
+    }
+}
+
+/* Smaller Mobile Screens */
+@media (max-width: 480px) {
+    body {
+        font-size: 0.8em; /* Further reduce base font size */
+    }
+
+    .top-view h1 {
+        font-size: 1.5em; /* Further resize the top-view heading */
+    }
+
+    .message-ceo {
+        font-size: 0.9em; /* Further resize the message from CEO */
+    }
+
+    .skill-box, .project-box, .expertise-box, .faq-item {
+        width: 100%;
+        font-size: 0.8em; /* Further adjust font size for boxes */
+    }
+
+    .client-detail {
+        font-size: 0.7em; /* Smaller text for client details */
+    }
+
+    .faq-answer {
+        font-size: 0.9em; /* Adjust font size for FAQ answers */
+    }
+
+    .feedback-box {
+        font-size: 1em; /* Resize the feedback text */
+    }
+}
+
+/* Tablet Screen Adjustments */
+@media (max-width: 1024px) {
+    .top-view h1 {
+        font-size: 2.5em; /* Resize for tablets */
+    }
+
+    .message-ceo {
+        font-size: 1.1em; /* Resize for tablets */
+    }
+
+    .skill-box, .project-box, .expertise-box, .faq-item {
+        width: calc(90% - 40px);
+        font-size: 1em; /* Adjust font size for boxes on tablets */
+    }
+
+    .client-detail {
+        font-size: 0.85em; /* Adjust client details text for tablets */
+    }
+}
