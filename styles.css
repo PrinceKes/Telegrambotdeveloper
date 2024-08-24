@@ -16,11 +16,6 @@ h1, h2, h3, h4 {
     overflow: hidden; /* Ensure the video doesn't overflow the section */
 }
 
-/* .topwe{
-    font-weight: 300;
-    font-size: medium;
-} */
-
 #background-video {
     position: absolute;
     top: 50%;
@@ -69,8 +64,6 @@ h1, h2, h3, h4 {
     text-align: center;
     overflow: hidden;
 }
-
-
 
 .skills, .projects, .expertise, .faq {
     display: flex;
@@ -176,9 +169,6 @@ h1, h2, h3, h4 {
     justify-content: space-between;
 }
 
-
-
-
 /* Footer Styles */
 .footer-content {
     display: flex;
@@ -186,9 +176,9 @@ h1, h2, h3, h4 {
     align-items: center;
     gap: 20px;
     flex-wrap: wrap;
-    padding-left: 65px;
-    padding-right: 65px;
-    padding-bottom: 40px;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-bottom: 30px;
 
 }
 
@@ -201,19 +191,18 @@ h1, h2, h3, h4 {
 .ceo-name {
     font-size: 1.5em; /* Increase the font size */
     font-weight: bold; /* Make the text bold */
-    background: linear-gradient(45deg, #ff7e5f, #f1e045); /* Apply gradient color */
+    background: linear-gradient(45deg, #a3ceff, #f1e045); /* Apply gradient color */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; /* Make the text fill transparent to show the gradient */
 }
 
 /* StrongNation Styles */
-.strongnation {
-    font-size: 1.2em; /* Slightly smaller than the main name */
-    background: linear-gradient(45deg, #06beb6, #4df377); /* Different gradient for contrast */
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
+/* .strongnation { */
+    /* font-size: 1.2em; Slightly smaller than the main name */
+    /* background: linear-gradient(45deg, #06beb6, #4df377); Different gradient for contrast */
+    /* -webkit-background-clip: text; */
+    /* -webkit-text-fill-color: transparent; */
+/* } */
 
 
 .footer-center {
@@ -241,12 +230,6 @@ h1, h2, h3, h4 {
         margin-top: 20px;
     }
 }
-
-
-
-
-
-
 
 .ceo-photo {
     border-radius: 50%;
@@ -383,3 +366,7 @@ h1, h2, h3, h4 {
         font-size: 0.85em; /* Adjust client details text for tablets */
     }
 }
+
+
+
+/* good product, make a healthy man a strong nation */
